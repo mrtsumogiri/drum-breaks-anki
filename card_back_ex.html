@@ -1,0 +1,49 @@
+<div style="font-size: 32px; font-weight: bold; margin-bottom: 8px;">
+  {{Break Name}}
+</div>
+
+{{#Break Nickname}}
+  <div style="font-size: 20px; font-style: italic; margin-bottom: 12px;">
+    {{Break Nickname}}
+  </div>
+{{/Break Nickname}}
+
+
+<div style="margin-bottom: 12px;">
+  {{Back Audio}}
+</div>
+
+{{#Note}}
+  <div style="font-size: 14px; margin-bottom: 12px;">
+    {{Note}}
+  </div>
+{{/Note}}
+
+<div style="margin-bottom: 20px;">
+  <div class="back-image">{{Back Image}}</div>
+</div>
+
+
+<div style="font-size: 14px; margin-bottom: 0px;">
+  {{Example 1}}{{Example 1 Audio}}
+</div>
+
+{{#Example 2 Audio}}
+  <div style="font-size: 14px; margin-bottom: 0px;">
+    {{Example 2}}{{Example 2 Audio}}
+  </div>
+{{/Example 2 Audio}}
+
+{{#Example 3 Audio}}
+  <div style="font-size: 14px; margin-bottom: 0px;">
+    {{Example 3}}{{Example 3 Audio}}
+  </div>
+{{/Example 3 Audio}}
+</div>
+
+{{#Whosampled URL}}
+<div style="font-size: 12px; color: gray; margin-top: 12px;">
+  <a href="{{Whosampled URL}}">Whosampled</a> rank: {{Whosampled rank}}<br>
+  Count: {{Whosampled count}}
+</div>
+{{/Whosampled URL}}

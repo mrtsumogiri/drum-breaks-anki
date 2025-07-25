@@ -1,0 +1,17 @@
+<!-- Show all 3 audio buttons -->
+<div id="audio-buttons">
+  {{Example 1 Audio}}{{Example 2 Audio}}{{Example 3 Audio}}
+</div>
+
+<!-- Hidden container for randomly chosen autoplay -->
+<div id="auto-play" style="display:none;"></div>
+
+<script>
+  const html = document.getElementById("audio-buttons").innerHTML;
+  const sounds = html.match(/\[sound:[^\]]+\]/g);
+
+  if (sounds && sounds.length > 0) {
+    const random = Math.floor(Math.random() * sounds.length);
+    document.getElementById("auto-play").innerHTML = sounds[random];
+  }
+</script>
