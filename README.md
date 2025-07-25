@@ -1,5 +1,5 @@
 # Drum Breaks Anki Deck
-Anki Deck for Drum Breaks often used in genres such as Dnb and Breakbeat Hardcore.
+Anki Deck for Drum Breaks often used in genres such as Dnb and Breakbeat Hardcore. It comes in two versions, one with example tracks and one without. Feel free to modify the css or js of the cards to your liking.
 
 **Note: this deck is currently incomplete/ a WIP! If you would like to help me with creating it you can drop a message to amenist on discord. Thanks.**
 
